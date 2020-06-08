@@ -1,0 +1,18 @@
+name: Spring Boot-mvc-data® on Open Liberty
+version: 0.1.1
+description: Spring Boot MVC with Spring Data on Open Liberty & OpenJ9 using Maven
+license: Apache-2.0
+language: java
+maintainers:
+ - name: Barnali
+   email: b.bhattacharyya@accenture.com
+   github-id: barnalib
+default-template: default
+requirements:
+    docker-version: ">= 17.09.0"
+    appsody-version: ">= 0.5.0"
+templating-data:
+    libertyversion: '20.0.0.3'
+    parentpomgroup: 'dev.appsody'
+    parentpomid: 'java-spring-boot-mvc-data-liberty'
+    parentpomrange: '[0.2, 0.3)'
