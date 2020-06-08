@@ -11,12 +11,12 @@ stacks:
     email: b.bhattacharyya@accenture.com
     github-id: barnalib
   default-template: default
-  src: https://github.com/barnalib/stack-spring-mvc-liberty/tree/v1.1mystack.v0.1.1.source.tar.gz
+  src: https://github.com/barnalib/stack-spring-mvc-liberty/archive/v1.2.tar.gz
   templates:
   - id: default
-    url: https://github.com/barnalib/stack-spring-mvc-liberty/tree/v1.1mystack.v0.1.1.templates.default.tar.gz
+    url: https://github.com/barnalib/stack-spring-mvc-liberty/releases/download/v1.2/mystack.v0.1.1.templates.default.tar.gz
   - id: simple
-    url: https://github.com/barnalib/stack-spring-mvc-liberty/tree/v1.1mystack.v0.1.1.templates.simple.tar.gz
+    url: https://github.com/barnalib/stack-spring-mvc-liberty/releases/download/v1.2/mystack.v0.1.1.templates.default.tar.gz
   requirements:
     docker-version: '>= 17.09.0'
     appsody-version: '>= 0.5.0'

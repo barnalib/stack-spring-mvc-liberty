@@ -38,7 +38,7 @@ public class AppController {
 	
 	// Just for testing purpose
 	@RequestMapping("/Az")
-	public String welcome2(ModelMap model) {
+	public String viewUser(ModelMap model) {
 		log.info("welcome second Method Call");
 		model.put("message", this.welcomeMessage);
 		log.info("welcome second Method End");
@@ -46,7 +46,7 @@ public class AppController {
 	}
         // Just for testing purpose
 	@RequestMapping("/usr")
-	public String welcome2(ModelMap model) {
+	public String view(ModelMap model) {
 		log.info("welcome third Method Call");
 		model.put("message", this.welcomeMessage);
 		log.info("welcome second Method End");
