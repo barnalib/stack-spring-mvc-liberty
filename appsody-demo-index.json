@@ -1,0 +1,20 @@
+[
+	{
+		"displayName": "Appsody-Demo Spring Boot-mvc-data® on Open Liberty default template",
+		"description": "Spring Boot MVC with Spring Data on Open Liberty \u0026 OpenJ9 using Maven",
+		"language": "java",
+		"projectType": "appsodyExtension",
+		"projectStyle": "Appsody",
+		"location": "https://github.com/barnalib/stack-spring-mvc-liberty/tree/v1.1mystack.v0.1.1.templates.default.tar.gz",
+		"self": "/devfiles/mystack/devfile.yaml"
+	},
+	{
+		"displayName": "Appsody-Demo Spring Boot-mvc-data® on Open Liberty simple template",
+		"description": "Spring Boot MVC with Spring Data on Open Liberty \u0026 OpenJ9 using Maven",
+		"language": "java",
+		"projectType": "appsodyExtension",
+		"projectStyle": "Appsody",
+		"location": "https://github.com/barnalib/stack-spring-mvc-liberty/tree/v1.1mystack.v0.1.1.templates.simple.tar.gz",
+		"self": "/devfiles/mystack/devfile.yaml"
+	}
+]

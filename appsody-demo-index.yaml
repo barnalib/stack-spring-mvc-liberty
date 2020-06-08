@@ -1,0 +1,23 @@
+apiVersion: v2
+stacks:
+- id: mystack
+  name: Spring Boot-mvc-data® on Open Liberty
+  version: 0.1.1
+  description: Spring Boot MVC with Spring Data on Open Liberty & OpenJ9 using Maven
+  license: Apache-2.0
+  language: java
+  maintainers:
+  - name: Barnali
+    email: b.bhattacharyya@accenture.com
+    github-id: barnalib
+  default-template: default
+  src: https://github.com/barnalib/stack-spring-mvc-liberty/tree/v1.1mystack.v0.1.1.source.tar.gz
+  templates:
+  - id: default
+    url: https://github.com/barnalib/stack-spring-mvc-liberty/tree/v1.1mystack.v0.1.1.templates.default.tar.gz
+  - id: simple
+    url: https://github.com/barnalib/stack-spring-mvc-liberty/tree/v1.1mystack.v0.1.1.templates.simple.tar.gz
+  requirements:
+    docker-version: '>= 17.09.0'
+    appsody-version: '>= 0.5.0'
+  image: docker.io/appsody-demo/mystack:0.1.1
