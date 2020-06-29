@@ -6,7 +6,9 @@
 		"projectType": "appsodyExtension",
 		"projectStyle": "Appsody",
 		"location": "https://github.com/barnalib/stack-spring-mvc-liberty/tree/v1.1mystack.v0.1.1.templates.default.tar.gz",
-		"self": "/devfiles/mystack/devfile.yaml"
+		"links": {
+		     "self": "/devfiles/mystack/devfile.yaml"
+		 }	
 	},
 	{
 		"displayName": "Appsody-Demo Spring Boot-mvc-data® on Open Liberty simple template",
