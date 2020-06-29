@@ -15,6 +15,8 @@
 		"projectType": "appsodyExtension",
 		"projectStyle": "Appsody",
 		"location": "https://github.com/barnalib/stack-spring-mvc-liberty/tree/v1.1mystack.v0.1.1.templates.simple.tar.gz",
-		"self": "/devfiles/mystack/devfile.yaml"
+		"links": {
+			"self": "/devfiles/mystack/devfile.yaml"
+		 }	
 	}
 ]
